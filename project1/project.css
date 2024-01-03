@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+}
+
+.nav{
+    width: 30%;
+    background-color: rgba(0, 102, 255, 0.922);
+    height: 600px;
+    display: grid;
+    justify-content: center;
+    color: white;
+    position: sticky;
+    top: 0%;
+    bottom: 0px;
+
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav div{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.nav div a:hover {
+    color: yellow;
+}
+
+.body{
+    width: 70%;
+    height: 100%;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.img{
+    justify-content: space-between;
+    margin-left: 50px ;
+    margin-right: 50px;
+    margin-top: 4%;
+}
+
+
+.img > img{
+    width: 150px;
+    height: 130px ;
+
+}
+
+.img2{
+    justify-content: space-between;
+    margin-left: 50px ;
+    margin-right: 50px;
+    margin-top: 4%;
+}
+
+
+.img2 > img{
+    width: 257px;
+    height: 160px ;
+
+}
+
+.img3{
+    justify-content: space-between;
+    margin-left: 50px ;
+    margin-right: 50px;
+    margin-top: 4%;
+}
+
+
+.img3 > img{
+    width: 188px;
+    height: 150px ;
+    
+}
+input {
+    width: 320px;
+    height: 40px;
+    margin: 10px 10px 10px 50px ;
+    font-size: 25px;
+    color: #eee;
+
+}
+img{
+    transform: scale(1);
+    transition: 2s;
+}
+
+img:hover{
+    transform: scale(1.5)  ;
+    transition: 2s;
+    z-index: 1;
+}
+
+
+
